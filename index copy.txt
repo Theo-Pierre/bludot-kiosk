@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BluDot TV</title>
+</head>
+<body>
+  <h1>BluDot TV</h1>
+  <p id="status">Loading videos...</p>
+  <video id="videoPlayer" width="640" controls></video>
+  <div id="videoGallery"></div>
+
+  <!-- Firebase CDN + Custom JS -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
